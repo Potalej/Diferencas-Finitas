@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-  LEGENDRE
+  EXPONENCIAL
 
   Neste exemplo estaremos usando a função:
         
        f(x) = exp(sin(x))cos(x)(-3sin(x)+cos²(x)-1)
 
-  Com a condição de contorno do diricléia no intervalo [-pi/2, pi/2] tal que f(-pi/2)=f(pi/2)=0, para os seguintes esquemas centrados:
+  Com a condição de contorno do Dirichlet no intervalo [-pi/2, pi/2] tal que f(-pi/2)=f(pi/2)=0, para os seguintes esquemas centrados:
 
     -> -1/(12h²) (-u_{k-2} + 16u_{k-1} - 30u_{k} + 16u_{k+1} - u_{k+2}) = f_{k}
     -> -1/h² (u_{k-1} - 2u_{k} + u_{k+1}) = f_{k}
