@@ -6,7 +6,7 @@
         
        f(x) = -105 (33x^4 - 18x^2 + 1) / 8
 
-  Com a condição de contorno do diricléia no intervalo [-1, 1] tal que f(-1)=f(1)=1, para os seguintes esquemas centrados:
+  Com a condição de contorno do Dirichlet no intervalo [-1, 1] tal que f(-1)=f(1)=1, para os seguintes esquemas centrados:
 
     -> -1/(12h²) (-u_{k-2} + 16u_{k-1} - 30u_{k} + 16u_{k+1} - u_{k+2}) = f_{k}
     -> -1/h² (u_{k-1} - 2u_{k} + u_{k+1}) = f_{k}
