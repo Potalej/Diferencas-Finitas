@@ -10,7 +10,11 @@ Uma facilidade desse tipo de E.D.O. enunciada é que encontrar soluções analit
 
 Assim, suponhamos uma $f(x) = (cos(x) - sen^2(x)) exp(cos(x))$, para $0 < x < 2\pi$, e valendo que $f(0) = f(2\pi) = e$.
 
-Utilizando $n$ iterações (aumentando), com esquema centrado $-\frac{1}{h^2}(u_{k-1} - 2u_k + u_{k+1}) = f_k$ para as linhas $0$, $1$, $n-1$ e $n$ e o esquema $-\dfrac{1}{12h^2}(-u_{k-2} + 16u_{k-1} - 30u_k + 16u_{k+1} - u_{k+2}) = f_k$ para as demais linhas, pode-se obter o seguinte resultado:
+Utilizando $n$ iterações (aumentando), com esquema centrado 
+$$-\frac{1}{h^2}(u_{k-1}-2u_k+u_{k+1})=f_{k}$$ 
+para as linhas $0$, $1$, $n-1$ e $n$ e o esquema 
+$$-\frac{1}{12h^2}(-u_{k-2}+16u_{k-1}-30u_k+16u_{k+1}-u_{k+2})=f_k$$
+para as demais linhas, pode-se obter o seguinte resultado:
 
 ![Alt Text](https://media3.giphy.com/media/qhcXdGdck55NF1Cetn/giphy.gif?cid=6c09b9524ded011a25eaec508b7594607285770e5f87d612&rid=giphy.gif&ct=g)
 
